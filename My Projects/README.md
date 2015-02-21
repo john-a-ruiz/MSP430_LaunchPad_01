@@ -1,4 +1,4 @@
-# My Personal Projects
+# My Personal MSP430 LaunchPad Projects
 
 ## A button-controlled LED array
 
