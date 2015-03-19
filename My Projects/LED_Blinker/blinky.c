@@ -17,7 +17,7 @@ void control(void);
 
 
 int Flag = 0;
-int Speed = 63;
+int Speed = 63;					// initial motor delay time
 
 void main(void) {
 	WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
@@ -265,47 +265,3 @@ void control(void)
 	}
 	P1OUT &= ~BIT0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
