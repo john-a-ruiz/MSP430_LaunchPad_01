@@ -1,5 +1,5 @@
 /*
- * Making a motor controller program. The motor is controller by push-buttons
+ * Making a motor controller program. The motor is controlled by push-buttons
  * ~2.4s (full step) 360 degree rotation time
  * ~1.9s (half step) 360 degree rotation time
  * -------Give motor time to warm up before taking it redline---------
