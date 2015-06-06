@@ -1,6 +1,12 @@
 /*
  * Using the Timer0 A in up mode to control a PWM signal output in order to pulse an LED and
  * display pertinent information on an external LCD.
+ *
+ * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ * Proper Operation is only defined for frequencies 32Hz - 933Hz
+ * Operation outside this range is not defined
+ * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ *
  */
 
 #include <msp430g2553.h>
@@ -122,7 +128,7 @@ void TIMER1_Ax_init(void)
 
 void LCD_init(void)
 {
-	__delay_cycles(20000);			// let display warm up
+	__delay_cycles(200000);			// let display warm up
 
 	P1OUT |= 0x02;					// 4-bit mode >> initial Function Set
 	enable();
