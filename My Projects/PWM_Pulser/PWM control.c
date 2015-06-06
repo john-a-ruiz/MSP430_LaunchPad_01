@@ -7,6 +7,14 @@
  * Operation outside this range is not defined
  * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  *
+ *
+ * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ * I have modified some of the msp430g2553.h #define's. When you
+ * compile the code you'll get some errors stating some things don't exist.
+ * You're going to have to do a little bit of thinking to figure them out,
+ * but just a little ;) If you need any help let me know.
+ * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ *
  */
 
 #include <msp430g2553.h>
