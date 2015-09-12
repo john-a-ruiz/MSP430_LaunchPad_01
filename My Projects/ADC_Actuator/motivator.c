@@ -12,7 +12,6 @@
  */
 
 #include <msp430g2553.h>
-#include <msp430g2_add.h>
 
 #define EN 		BIT1
 #define _1A 	BIT0
