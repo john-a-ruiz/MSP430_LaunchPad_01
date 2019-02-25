@@ -19,3 +19,5 @@ I am using an external oscillator to ensure the accuracy of the specified freque
 If you are using the LaunchPad you can solder on the crystal provided or you can stick 
 the tuning fork oscillator into the Xin and Xout pins of the LaunchPad (easier)
 
+## YouTube Video
+[![MSP430 Launchpad Project (code and schematics): PWM contoller on a Breadboard](http://img.youtube.com/vi/U2Fl7Byrlf4/0.jpg)](https://www.youtube.com/watch?v=U2Fl7Byrlf4)
